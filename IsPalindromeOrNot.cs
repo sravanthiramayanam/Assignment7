@@ -8,26 +8,26 @@ namespace FunctionToFindLinskedListPalindromeOrNot
 {
      class IsPalindromeOrNot
     {
-        public static void Main(String[] args)
-        {
-            Node one = new Node(1);
-            Node two = new Node(2);
-            Node three = new Node(3);
-            Node four = new Node(4);
-            Node five = new Node(3);
-            Node six = new Node(2);
-            Node seven = new Node(1);
+        //public static void Main(String[] args)
+        //{
+        //    Node one = new Node(1);
+        //    Node two = new Node(2);
+        //    Node three = new Node(3);
+        //    Node four = new Node(4);
+        //    Node five = new Node(3);
+        //    Node six = new Node(2);
+        //    Node seven = new Node(1);
 
-            one.ptr = two;
-            two.ptr = three;
-            three.ptr = four;
-            four.ptr = five;
-            five.ptr = six;
-            six.ptr = seven;
+        //    one.ptr = two;
+        //    two.ptr = three;
+        //    three.ptr = four;
+        //    four.ptr = five;
+        //    five.ptr = six;
+        //    six.ptr = seven;
 
-            bool condition = isPalindrome(one);
-            Console.WriteLine("isPalidrome :" + condition);
-        }
+        //    bool condition = isPalindrome(one);
+        //    Console.WriteLine("isPalidrome :" + condition);
+        //}
 
         static bool isPalindrome(Node head)
         {
