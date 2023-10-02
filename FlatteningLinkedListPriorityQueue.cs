@@ -96,33 +96,33 @@ namespace FlatteningLinkedListUsingPriorityQueue
                 }
             }
 
-            public static void Main()
-            {
-                var head = new Node(5);
-                var temp = head;
-                var bt = head;
-                bt.bottom = new Node(7);
-                bt.bottom.bottom = new Node(8);
-                bt.bottom.bottom.bottom = new Node(30);
-                temp.next = new Node(10);
+            //public static void Main()
+            //{
+            //    var head = new Node(5);
+            //    var temp = head;
+            //    var bt = head;
+            //    bt.bottom = new Node(7);
+            //    bt.bottom.bottom = new Node(8);
+            //    bt.bottom.bottom.bottom = new Node(30);
+            //    temp.next = new Node(10);
 
-                temp = temp.next;
-                bt = temp;
-                bt.bottom = new Node(20);
-                temp.next = new Node(19);
-                temp = temp.next;
-                bt = temp;
-                bt.bottom = new Node(22);
-                bt.bottom.bottom = new Node(50);
-                temp.next = new Node(28);
-                temp = temp.next;
-                bt = temp;
-                bt.bottom = new Node(35);
-                bt.bottom.bottom = new Node(40);
-                bt.bottom.bottom.bottom = new Node(45);
+            //    temp = temp.next;
+            //    bt = temp;
+            //    bt.bottom = new Node(20);
+            //    temp.next = new Node(19);
+            //    temp = temp.next;
+            //    bt = temp;
+            //    bt.bottom = new Node(22);
+            //    bt.bottom.bottom = new Node(50);
+            //    temp.next = new Node(28);
+            //    temp = temp.next;
+            //    bt = temp;
+            //    bt.bottom = new Node(35);
+            //    bt.bottom.bottom = new Node(40);
+            //    bt.bottom.bottom.bottom = new Node(45);
 
-                Flatten(head);
-            }
+            //    Flatten(head);
+            //}
         }
     }
 }
