@@ -54,24 +54,24 @@ namespace PairwiseSwapElementsInLinkedList
             Console.WriteLine();
         }
 
-        public static void Main(String[] args)
-        {
-           PairwiseSwapElements llist = new PairwiseSwapElements();
+        //public static void Main(String[] args)
+        //{
+        //   PairwiseSwapElements llist = new PairwiseSwapElements();
 
-            llist.push(5);
-            llist.push(4);
-            llist.push(3);
-            llist.push(2);
-            llist.push(1);
+        //    llist.push(5);
+        //    llist.push(4);
+        //    llist.push(3);
+        //    llist.push(2);
+        //    llist.push(1);
 
-            Console.WriteLine("Linked List before calling pairWiseSwap() ");
-            llist.printList();
+        //    Console.WriteLine("Linked List before calling pairWiseSwap() ");
+        //    llist.printList();
 
-            llist.pairWiseSwap();
+        //    llist.pairWiseSwap();
 
-            Console.WriteLine("Linked List after calling pairWiseSwap() ");
-            llist.printList();
-        }
+        //    Console.WriteLine("Linked List after calling pairWiseSwap() ");
+        //    llist.printList();
+        //}
     }
 
 }
