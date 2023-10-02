@@ -48,24 +48,24 @@ namespace MergeTwoSortedLinkedList
             Console.WriteLine();
         }
 
-        public static void Main(String[] args)
-        {
-            MergeTwoSortedLists llist1 = new MergeTwoSortedLists();
-            MergeTwoSortedLists llist2 = new MergeTwoSortedLists();
+        //public static void Main(String[] args)
+        //{
+        //    MergeTwoSortedLists llist1 = new MergeTwoSortedLists();
+        //    MergeTwoSortedLists llist2 = new MergeTwoSortedLists();
 
-            llist1.addToTheLast(new Node(10));
-            llist1.addToTheLast(new Node(20));
-            llist1.addToTheLast(new Node(30));
+        //    llist1.addToTheLast(new Node(10));
+        //    llist1.addToTheLast(new Node(20));
+        //    llist1.addToTheLast(new Node(30));
 
-            llist2.addToTheLast(new Node(15));
-            llist2.addToTheLast(new Node(17));
-            llist2.addToTheLast(new Node(20));
+        //    llist2.addToTheLast(new Node(15));
+        //    llist2.addToTheLast(new Node(17));
+        //    llist2.addToTheLast(new Node(20));
 
-            llist1.head = new Assignment7().sortedMerge(llist1.head,
-                                                llist2.head);
-            Console.WriteLine("Merged Linked List is:");
-            llist1.printList();
-        }
+        //    llist1.head = new Assignment7().sortedMerge(llist1.head,
+        //                                        llist2.head);
+        //    Console.WriteLine("Merged Linked List is:");
+        //    llist1.printList();
+        //}
     }
 
     public class Assignment7
