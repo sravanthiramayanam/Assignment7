@@ -128,24 +128,24 @@ namespace FunctionThatReturnsSumListOfTwoLinkedList
             Console.WriteLine(head.data);
         }
 
-        public static void Main(String[] args)
-        {
-            SumListOfTwoLinkedLists list = new SumListOfTwoLinkedLists();
+        //public static void Main(String[] args)
+        //{
+        //    SumListOfTwoLinkedLists list = new SumListOfTwoLinkedLists();
 
-            Node head1 = new Node(5);
-            head1.next = new Node(4);
-            Console.Write("First List : ");
-            list.printList(head1);
+        //    Node head1 = new Node(5);
+        //    head1.next = new Node(4);
+        //    Console.Write("First List : ");
+        //    list.printList(head1);
 
-            Node head2 = new Node(5);
-            head2.next = new Node(4);
-            head2.next.next = new Node(3);
-            Console.Write("Second List : ");
-            list.printList(head2);
+        //    Node head2 = new Node(5);
+        //    head2.next = new Node(4);
+        //    head2.next.next = new Node(3);
+        //    Console.Write("Second List : ");
+        //    list.printList(head2);
 
-            Console.Write("Resultant List : ");
+        //    Console.Write("Resultant List : ");
 
-            list.addTwoLists(head1, head2);
-        }
+        //    list.addTwoLists(head1, head2);
+        //}
     }
 }
