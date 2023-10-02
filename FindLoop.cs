@@ -46,27 +46,27 @@ namespace FindLoopInLinkedList
             return false;
         }
 
-        public static void Main(String[] args)
-        {
-            FindLoop llist = new FindLoop();
+        //public static void Main(String[] args)
+        //{
+        //    FindLoop llist = new FindLoop();
 
-            llist.push(20);
-            llist.push(4);
-            llist.push(15);
-            llist.push(10);
-            /*Create loop for testing */
-            llist.head.next.next.next.next = llist.head;
+        //    llist.push(20);
+        //    llist.push(4);
+        //    llist.push(15);
+        //    llist.push(10);
+        //    /*Create loop for testing */
+        //    llist.head.next.next.next.next = llist.head;
 
-            Boolean found = llist.detectLoop();
-            if (found)
-            {
-                Console.WriteLine("Loop Found");
-            }
-            else
-            {
-                Console.WriteLine("No Loop");
-            }
-        }
+        //    Boolean found = llist.detectLoop();
+        //    if (found)
+        //    {
+        //        Console.WriteLine("Loop Found");
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine("No Loop");
+        //    }
+        //}
     }
 }
 
